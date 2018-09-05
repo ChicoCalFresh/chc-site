@@ -9,6 +9,11 @@ h1 {
   text-align: center;
 }
 
+#form {
+  display: flex;
+  justify-content: center;
+}
+
 /* header and footer areas */
 .menu { padding: 0; }
 .menu li { display: inline-block; }

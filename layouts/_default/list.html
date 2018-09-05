@@ -6,6 +6,8 @@
 
 {{ .Content }}
 
-<div id="form"></div>
+{{ with .Params.formId }}<div id="form"><iframe src="https://docs.google.com/forms/d/e/{{ . }}/viewform?embedded=true" width="640" height="475" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe></div>{{end}}
+
+
 
 {{ partial "footer.html" . }}
