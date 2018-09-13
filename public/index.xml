@@ -19,5 +19,14 @@
       <description> This is where a helpful help section will be </description>
     </item>
     
+    <item>
+      <title>Upload</title>
+      <link>/upload/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/upload/</guid>
+      <description> Don&amp;rsquo;t Mind Me Doing Work Here </description>
+    </item>
+    
   </channel>
 </rss>
