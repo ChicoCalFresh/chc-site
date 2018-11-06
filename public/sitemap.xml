@@ -16,12 +16,16 @@
   </url>
   
   <url>
+    <loc>/upload-ml/</loc>
+  </url>
+  
+  <url>
     <loc>/tags/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/upload/</loc>
+    <loc>/upload-fin/</loc>
   </url>
   
 </urlset>

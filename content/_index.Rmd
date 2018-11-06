@@ -1,7 +1,9 @@
 ---
 title: Home
-formId: "1FAIpQLSdd9T1HEtA9Xm0qZtekKOwSCLH4hfH-ejcmJ4DHyd8CMxGhAA"
 ---
 
 # CHC Data Submission
 
+![](images/chc-logo.jpg)
+
+This site is the Document Reporting site for CHC Partner Locations.  Please select the links above to upload either your Master Log or Financial Reporting Documents. For our home page visit [Center For Healthy Communities - CSU Chico](http://www.csuchico.edu/chc/)
