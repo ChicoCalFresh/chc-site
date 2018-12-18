@@ -2,8 +2,17 @@
 title: Home
 ---
 
-# CHC Data Submission
+# Center for Healthy Communities 
+# Cal Fresh Outreach
+# Subcontractor Reporting
 
 ![](images/chc-logo.jpg)
 
 This site is the Document Reporting site for CHC Partner Locations.  Please select the links above to upload either your Master Log or Financial Reporting Documents. For our home page visit [Center For Healthy Communities - CSU Chico](http://www.csuchico.edu/chc/)
+
+<!---
+Todo, 
+* modify CSS so that 2nd and 3rd level header are still centered, 
+* slightly smaller font, 
+* and the first level header is that almost periwinkle blue(?). 
+--->

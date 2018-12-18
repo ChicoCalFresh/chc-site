@@ -8,6 +8,10 @@
   </url>
   
   <url>
+    <loc>/upload-fin/</loc>
+  </url>
+  
+  <url>
     <loc>/help/</loc>
   </url>
   
@@ -22,10 +26,6 @@
   <url>
     <loc>/tags/</loc>
     <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/upload-fin/</loc>
   </url>
   
 </urlset>

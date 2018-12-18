@@ -1,14 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Home on CHC Reporting</title>
+    <title>Home on CHC Subcontractor Reporting</title>
     <link>/</link>
-    <description>Recent content in Home on CHC Reporting</description>
+    <description>Recent content in Home on CHC Subcontractor Reporting</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Financial Reporting</title>
+      <link>/upload-fin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/upload-fin/</guid>
+      <description> Time and Effort Use the uploader below to browse to and select your Time and Effort and Contractor Expense Forms.
+ </description>
+    </item>
     
     <item>
       <title>Help</title>
@@ -20,22 +30,14 @@
     </item>
     
     <item>
-      <title>Master Log Submission</title>
+      <title>Program Reporting</title>
       <link>/upload-ml/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/upload-ml/</guid>
-      <description>Use the uploader below to browse to and select your Master Log for Submission
+      <description> Master Log Use the uploader below to browse to and select your Master Log for submission.
+ Portal Screenshot Use the uploader below to browse to and select your portal screenshot for submission.
  </description>
-    </item>
-    
-    <item>
-      <title>Upload Finacial Documents</title>
-      <link>/upload-fin/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/upload-fin/</guid>
-      <description>Use the uploader below to browse to and select your Time and Effort and Contractor Expense Forms</description>
     </item>
     
   </channel>

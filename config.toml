@@ -1,6 +1,6 @@
 baseurl = "/"
 languageCode = "en-us"
-title = "CHC Reporting"
+title = "CHC Subcontractor Reporting"
 theme = "hugo-xmin"
 googleAnalytics = ""
 disqusShortname = ""
@@ -18,11 +18,11 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     url = "/help"
     weight = 2
 [[menu.main]]
-    name = "Upload Master Logs"
+    name = "Program Reporting"
     url ="/upload-ml"
     weight = 3
 [[menu.main]]
-    name = "Upload Financials"
+    name = "Financial Reporting"
     url ="/upload-fin"
     weight = 4
 
