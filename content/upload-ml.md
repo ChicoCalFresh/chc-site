@@ -19,3 +19,5 @@ Use the uploader below to browse to and select your portal screenshot for submis
 # Narrative
 Use the uploader below to browse to and select your Narrative for submission.
 
+<script src="https://csuchico.app.box.com/upload-widget/embed.js?folderID=68210274612&height=420&isDescriptionFieldShown=0&isEmailRequired=1&title=Submit%20File(s)%20to%20Narrative&token=uzwstymdbi0rtmnbf49soil8knkn6yht&width=385" type="text/javascript"></script>
+

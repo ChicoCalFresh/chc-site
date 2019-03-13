@@ -16,7 +16,8 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/upload-cr/</guid>
-      <description>Use the uploader below to browse to and select your Checklist for submission.</description>
+      <description>Use the uploader below to browse to and select your Checklist for submission.
+ </description>
     </item>
     
     <item>
@@ -45,9 +46,10 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/upload-ml/</guid>
-      <description>Master Log Use the uploader below to browse to and select your Master Log for submission.
+      <description> Master Log Use the uploader below to browse to and select your Master Log for submission.
  Portal Screenshot Use the uploader below to browse to and select your portal screenshot for submission.
- Narrative Use the uploader below to browse to and select your Narrative for submission.</description>
+ Narrative Use the uploader below to browse to and select your Narrative for submission.
+ </description>
     </item>
     
   </channel>
