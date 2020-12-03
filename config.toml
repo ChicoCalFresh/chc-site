@@ -25,10 +25,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     name = "Fiscal Reporting"
     url ="/upload-fin"
     weight = 3
-[[menu.main]]
-    name = "Fiscal Reporting 2"
-    url ="/test"
-    weight = 4
+
 
 [params]
     description = "A website built through Hugo and blogdown."
