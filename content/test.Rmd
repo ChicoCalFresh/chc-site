@@ -2,12 +2,22 @@
 title: Fiscal Reporting
 ---
 
-```{r, echo=FALSE, warning=FALSE}
+```{r, echo=FALSE, warning=FALSE, message=FALSE}
 library(dplyr)
+library(tidyr)
 library(readxl)
+library(DT)
 sbs <- read_excel("../data/sub_list.xlsx", sheet = 2)
 sbs <- sbs %>% select(`CSU, Chico Research Foundation - Center for Healthy Communities (CHC)`, SOW_Name, `Year Two Internal Acronym`) %>% filter(!is.na(`Year Two Internal Acronym`)) %>% filter(!is.na(`CSU, Chico Research Foundation - Center for Healthy Communities (CHC)`))
 names(sbs) <- c("subcontractor", "SOW_Name", "y2n")
+```
+
+```{r, echo=FALSE, warning=FALSE, message=FALSE}
+display_tbl <- sbs %>% select("SOW_Name", "y2n") %>% 
+  rename(Campus = SOW_Name,Shortcode = y2n) %>% 
+  filter(!is.na(Campus))
+
+datatable(display_tbl, class = 'cell-border stripe')
 ```
 
 
