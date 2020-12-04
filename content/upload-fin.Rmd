@@ -7,7 +7,7 @@ library(dplyr)
 library(tidyr)
 library(readxl)
 library(DT)
-sbs <- read_excel("../data/sub_list.xlsx", sheet = 2)
+sbs <- read_excel("sub_list.xlsx", sheet = 2)
 sbs <- sbs %>% select(`CSU, Chico Research Foundation - Center for Healthy Communities (CHC)`, SOW_Name, `Year Two Internal Acronym`) %>% filter(!is.na(`Year Two Internal Acronym`)) %>% filter(!is.na(`CSU, Chico Research Foundation - Center for Healthy Communities (CHC)`))
 names(sbs) <- c("subcontractor", "SOW_Name", "y2n")
 ```
