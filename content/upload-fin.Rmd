@@ -1,0 +1,39 @@
+---
+title: Fiscal Reporting
+---
+
+```{r, echo=FALSE, warning=FALSE, message=FALSE}
+library(dplyr)
+library(tidyr)
+library(readxl)
+library(DT)
+sbs <- read_excel("sub_list.xlsx", sheet = 2)
+sbs <- sbs %>% select(`CSU, Chico Research Foundation - Center for Healthy Communities (CHC)`, SOW_Name, `Year Two Internal Acronym`) %>% filter(!is.na(`Year Two Internal Acronym`)) %>% filter(!is.na(`CSU, Chico Research Foundation - Center for Healthy Communities (CHC)`))
+names(sbs) <- c("subcontractor", "SOW_Name", "y2n")
+```
+
+
+**Before submitting make sure the name of your files contain both the quarter (eg. Q3) and the short code name for your campus. Search the table below to find your campus short code name.**
+
+```{r, echo=FALSE, warning=FALSE, message=FALSE}
+display_tbl <- sbs %>% select("SOW_Name", "y2n") %>% 
+  rename(Campus = SOW_Name,Shortcode = y2n) %>% 
+  filter(!is.na(Campus) & !Shortcode %in% c("CHC", "PANTRY"))
+
+datatable(display_tbl, class = 'cell-border stripe', rownames = FALSE,
+          options = list(pageLength = 5))
+```
+
+# Time and Effort
+
+Use the uploader below to browse to and select your Time and Effort form. 
+
+<script src="https://csuchico.app.box.com/upload-widget/embed.js?folderID=61817025515&height=420&isDescriptionFieldShown=0&isEmailRequired=1&title=Submit%20File(s)%20to%20Time_Effort&token=dyua1vg9v07hb5ek8dmis64au4x9g3bq&width=385" type="text/javascript"></script>
+
+----
+
+# Invoice and State Share Documentation
+
+Use the uploader below to browse to and select your Invoice and State Share Documentation Report (SSDR)
+
+<script src="https://csuchico.app.box.com/upload-widget/embed.js?folderID=61819231600&height=420&isDescriptionFieldShown=0&isEmailRequired=1&title=Submit%20File(s)%20to%20Invoice_SSDR&token=vq1x67481c88ryaes8o8ed9udwo90nha&width=385" type="text/javascript"></script>

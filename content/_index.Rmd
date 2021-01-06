@@ -3,7 +3,7 @@ title: Home
 ---
 
 # Center for Healthy Communities 
-# Cal Fresh Outreach
+# CalFresh Outreach
 # Subcontractor Reporting
 
 ![](chc-logo.jpg)
