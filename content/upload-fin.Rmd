@@ -7,9 +7,7 @@ library(dplyr)
 library(tidyr)
 library(readxl)
 library(DT)
-sbs <- read_excel("sub_list.xlsx", sheet = 2)
-sbs <- sbs %>% select(`CSU, Chico Research Foundation - Center for Healthy Communities (CHC)`, SOW_Name, `Year Two Internal Acronym`) %>% filter(!is.na(`Year Two Internal Acronym`)) %>% filter(!is.na(`CSU, Chico Research Foundation - Center for Healthy Communities (CHC)`))
-names(sbs) <- c("subcontractor", "SOW_Name", "y2n")
+sbs <- read_excel("sbs_tef.xlsx")
 ```
 
 
@@ -17,8 +15,7 @@ names(sbs) <- c("subcontractor", "SOW_Name", "y2n")
 
 ```{r, echo=FALSE, warning=FALSE, message=FALSE}
 display_tbl <- sbs %>% select("SOW_Name", "y2n") %>% 
-  rename(Campus = SOW_Name,Shortcode = y2n) %>% 
-  filter(!is.na(Campus) & !Shortcode %in% c("CHC", "PANTRY"))
+  rename(Campus = SOW_Name,Shortcode = y2n)
 
 datatable(display_tbl, class = 'cell-border stripe', rownames = FALSE,
           options = list(pageLength = 5))
