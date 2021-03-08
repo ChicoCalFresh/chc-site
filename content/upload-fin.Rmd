@@ -1,5 +1,6 @@
 ---
-title: Fiscal Reporting
+title: "Fiscal Reporting"
+output: pdf_document
 ---
 
 ```{r, echo=FALSE, warning=FALSE, message=FALSE}
@@ -8,6 +9,7 @@ library(tidyr)
 library(readxl)
 library(DT)
 sbs <- read_excel("sbs_tef.xlsx")
+# changed the name of the sbs data
 ```
 
 
