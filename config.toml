@@ -9,22 +9,18 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 [permalinks]
     post = "/:year/:month/:day/:slug/"
 
-[[menu.main]]
-    name = "Home"
-    url = "/"
-    weight = 1
-[[menu.main]]
-    name = "Help"
-    url = "/help"
-    weight = 5
-[[menu.main]]
-    name = "Program Reporting"
-    url ="/upload-ml"
-    weight = 2
-[[menu.main]]
-    name = "Fiscal Reporting"
-    url ="/upload-fin"
-    weight = 3
+#[[menu.main]]
+#    name = "Home"
+#    url = "/"
+#    weight = 1
+#[[menu.main]]
+#    name = "Help"
+#    url = "/help"
+#    weight = 5
+#[[menu.main]]
+#    name = "Fiscal Reporting"
+#    url ="/upload-fin"
+#    weight = 3
 
 
 [params]
