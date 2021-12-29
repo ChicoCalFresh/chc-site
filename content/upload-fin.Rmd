@@ -9,17 +9,13 @@ library(tidyr)
 library(readxl)
 library(DT)
 sbs <- read_excel("sbs_tef.xlsx")
-# changed the name of the sbs data
 ```
 
 
 **Before submitting make sure the name of your files contain both the quarter (eg. Q3) and the short code name for your campus. Search the table below to find your campus short code name.**
 
 ```{r, echo=FALSE, warning=FALSE, message=FALSE}
-display_tbl <- sbs %>% select("SOW_Name", "y2n") %>% 
-  rename(Campus = SOW_Name,Shortcode = y2n)
-
-datatable(display_tbl, class = 'cell-border stripe', rownames = FALSE,
+datatable(sbs, class = 'cell-border stripe', rownames = FALSE,
           options = list(pageLength = 5))
 ```
 
