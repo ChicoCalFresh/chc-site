@@ -1,6 +1,6 @@
 baseurl = "/"
 languageCode = "en-us"
-title = "CHC Subcontractor Reporting"
+title = "CHC CFO Subcontractor Reporting"
 theme = "hugo-xmin"
 googleAnalytics = ""
 disqusShortname = ""
