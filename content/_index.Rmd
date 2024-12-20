@@ -7,7 +7,7 @@ title: Home
 
 <img src="chc-logo.png" alt="CHC logo" width="30%"/>
 
-This site is the Fiscal Document Reporting site for CFO Partner Locations. Please use the upload widgets below to submit your quarterly reporting documents. For our home page visit [Center For Healthy Communities - CSU Chico](http://www.csuchico.edu/chc/)
+This site is the Fiscal Document Reporting site for CFO Partner Locations. Please use the upload widgets below to submit your quarterly reporting documents. For our home page visit [Center For Healthy Communities - CSU Chico](https://chcchicostate.org/)
 
 ----
 
