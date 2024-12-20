@@ -3,9 +3,9 @@ title: Home
 ---
 
 # Center for Healthy Communities 
-# Subcontractor Fiscal Reporting for CalFresh Outreach FFY 21-24
+# Subcontractor Fiscal Reporting for CalFresh Outreach FFY 25-27
 
-<img src="chc-logo.jpg" alt="CHC logo" width="30%"/>
+<img src="chc-logo.png" alt="CHC logo" width="30%"/>
 
 This site is the Fiscal Document Reporting site for CFO Partner Locations. Please use the upload widgets below to submit your quarterly reporting documents. For our home page visit [Center For Healthy Communities - CSU Chico](http://www.csuchico.edu/chc/)
 
